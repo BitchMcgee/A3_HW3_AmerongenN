@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Sass and Modules</title>
+
+    <!-- this has to be a css file-->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <main id="app">
+        <h1 class="hidden">Welcome to my awesome app</h1>
+        
+        <!-- this is an HTML component -->
+        <nav class="main-nav">
+            <li class="nav-item"><a href="#">item 1</a></li>
+            <li class="nav-item"><a href="#">item 2</a></li>
+            <li class="nav-item"><a href="#">item 3</a></li>
+            <li class="nav-item"><a href="#">item 4</a></li>
+            <li class="nav-item"><a href="#">item 5</a></li>
+        </nav>
+        <section class="user-section">
+        </section>
+        <!--END USER SECTION-->
+    </main>
+
+    <footer>this is a boring footer</footer>
+
+<!--Templates go here (these don't get rendered on the page-->
+<template id="user-template">
+    <div class="user">
+        <h1 class="hidden"></h1>
+        <h2 class="user-name"></h2>
+        <p class="user-nickname"></p>
+        <p class="user-role"></p>
+    </div>
+</template>
+
+<!--END TEMPLATE-->
+<!-- script files always go here-->
+    <!-- ****ALWAYS INCLUDE type="module"****-->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
