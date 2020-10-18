@@ -1,0 +1,13 @@
+﻿DEV Roadmap
+
+
+The end goal to determine success with this project is to get the live web page on my workspace to be identical to the screenshot provided. To find what parts I need to interact with I am reviewing the class files and comparing the use of AJAX to the content it presents so I can know what content on the current file is the right section to have the function focus on.
+
+
+In the <div> parent tag there is a class called profPanel so I am using that one to call the content and fill in the child tags. It is the div tag that is connected to the rest of the tags so if I can target it correctly and call upon the classData I can call to the required sections coursename, coursecode being in profPanelText, and profname, classtime and profimg on the bottom half.
+
+
+Unfortunately I was unable to ultimately get the text to appear in the box but I intend to continue using this content to further develop my FIP site and learn what I was unable to do correctly, as I plan to use AJAX heavily to display dynamic content of each section of my portfolio site.
+
+
+Nic Amerongen
